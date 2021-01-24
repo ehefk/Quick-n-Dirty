@@ -59,7 +59,7 @@ In my above example, the main "Dissolve Alpha" slider is set to 0 on the AnimeHo
 
 Animate these properties like you normally would, setting the Dissolve Alphas between -1 and 1 in your keyframes and you're good to go!
 
-Protip: if you happen to be new to animating in unity, like I was when starting this you'll find out you can't copy/paste the properties into a new animation clip, but you can duplicate each clip, **then drag them** onto your test avatar in the scene for testing.
+Protip: if you happen to be new to animating in unity, like I was when starting this you'll find out you can't copy/paste the properties into a new animation clip, but you can duplicate each clip, **then drag each one** onto your test avatar in the scene for testing.
 
 When you're adding the Dissolve Alpha Properties you'll notice that some say "ANIMATED" - don't touch those, they're used by the compiled shader during optimization.
 
