@@ -1,6 +1,8 @@
 # Quick and dirty guide to Poiyomi Pro Dissolve Anim Sliders
 
-## Keep in mind, this shader package changes frequently, so the way this works may end up changing in the near future, but the capability will almost certainly remain.
+## Why? Because having lots of meshes is far more of a resource intensive than just a bunch of materials.  These shaders are highly optimized and you'll save everyone some frames.
+
+### (Keep in mind, this shader package gets frequent updates, so the way this works may end up changing in the near future, but the capability will almost certainly remain.)
 
 **The version used here is 7.0.81 with unity 2018 (for VRChat).**
 
