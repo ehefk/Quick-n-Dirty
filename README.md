@@ -18,7 +18,7 @@ In the demonstration, we're using 4 materials that make up this avatar's outfit 
 
 Reminder before you start, make sure the rendering preset is on "Cutout" or this won't work at all.
 
-![](https://i.gyazo.com/3b5a0d184febec873db8573fecfa4400.png)
+![](https://i.gyazo.com/954c596c2fb1196c5c81c7179471d244.png)
 
 The way this works is each "Dissolve Alpha" slider goes from -1 to 1.
 
@@ -30,21 +30,21 @@ Depending on what the initial "Dissolve Alpha" value is for that material, you c
 
 Keep in mind, the magic doesn't happen until you "Lock in the shader" at the very top, and **you can't test any animations until after you mark each material's slider to animate,** (so you might want to just start with 1 or 2 materials to make sure you're doing it right).
 
-*LOCK IN TO SEE ANIMATIONS
-![](https://i.gyazo.com/803772d58bb46aea049784d3ee14816d.png)
+*LOCK IN TO SEE ANIMATIONS*
+![](https://i.gyazo.com/02c3fa20ef4ce344f06327f2f7a0ad15.png)
 
 Here's what I mean.
 All 4 materials unlocked, *even with the clock on the sliders nothing happens on the animation clip:
 
-![](https://i.gyazo.com/25e4ac4355aab021781da3f1459caf45.png)
+![](https://i.gyazo.com/2df1472d31dd8a1724e634dd7e407852.png)
 
 Locked the hoodie, it dissappears:
 
-![](https://i.gyazo.com/0d4c610680dba85a0aee9daef7a7ead8.png)
+![](https://i.gyazo.com/fbf08eded053d4f215705a452c0a50b7.png)
 
 Locked the tank top, it now appears:
 
-![](https://i.gyazo.com/c36a445c853530fc454629756afe75a8.png)
+![](https://i.gyazo.com/a80556c0ec791ad08d56fbde3fc45eb1.png)
 
 Also note that if a material's dissolve starts at 0, then sliding into negative territory has no effect.  
 -- The negative values are for when a material's initial dissolve value is positive.
@@ -53,7 +53,7 @@ In my example here, I have a top and bottom that I want to dissolve and undissol
 
 The other default dissolve setting you'll want to configure is the "Dissolved Color," which must be set to Alpha = 0 using the color picker if you want it to be fully transparent but can be whatever you want.
 
-![](https://i.gyazo.com/c505688434a9997ad5169f915b15ccd4.png)
+![](https://i.gyazo.com/63008823a24f07df89757f71158a2ac7.png)
 
 In my above example, the main "Dissolve Alpha" slider is set to 0 on the AnimeHoodie and AnimeSweats materials and 1 on the hidden materials (in this case the tanktop and lowrise).
 
