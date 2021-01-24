@@ -28,7 +28,7 @@ Depending on what the initial "Dissolve Alpha" value is for that material, you c
 
 ![](https://i.gyazo.com/4d7d10df91c98ce34c91f124ce15bb90.png)
 
-Keep in mind, the magic doesn't happen until you "Lock in the shader" at the very top, so you can't really test any animations until after you mark each material's slider to animate, (so you might want to just start with 1 or 2 materials to make sure you're doing it right).
+Keep in mind, the magic doesn't happen until you "Lock in the shader" at the very top, and **you can't test any animations until after you mark each material's slider to animate,** (so you might want to just start with 1 or 2 materials to make sure you're doing it right).
 
 *LOCK IN TO SEE ANIMATIONS
 ![](https://i.gyazo.com/803772d58bb46aea049784d3ee14816d.png)
@@ -55,19 +55,17 @@ The other default dissolve setting you'll want to configure is the "Dissolved Co
 
 ![](https://i.gyazo.com/c505688434a9997ad5169f915b15ccd4.png)
 
-The main "Dissolve Alpha" slider is set to 0 on the Hoodie and Sweats materials and 1 on the hidden materials (in this case "tank top" and "low rise").
+In my above example, the main "Dissolve Alpha" slider is set to 0 on the AnimeHoodie and AnimeSweats materials and 1 on the hidden materials (in this case the tanktop and lowrise).
 
-Next, you'll want animate these properties like you normally would. 
+Animate these properties like you normally would, setting the Dissolve Alphas between -1 and 1 in your keyframes and you're good to go!
 
-Set the Dissolve Alphas between -1 and 1 in your keyframes and you're good to go!
-
-Protip: if you happen to be new to animating in unity, like I was when starting this you'll find out you can't copy/paste the properties into a new animation clip, but you can duplicate each clip, **then drag them** onto your test avatar in the scene.
+Protip: if you happen to be new to animating in unity, like I was when starting this you'll find out you can't copy/paste the properties into a new animation clip, but you can duplicate each clip, **then drag them** onto your test avatar in the scene for testing.
 
 When you're adding the Dissolve Alpha Properties you'll notice that some say "ANIMATED" - don't touch those, they're used by the compiled shader during optimization.
 
 ![](https://i.gyazo.com/ebb82d06e229620eef6bfa37bf547122.png)
 
-Don't forget to right-click each slider on each material so the 'clock icon appears.'  
+Don't forget to right-click the desired slider for each material to use.  You should have 1 clock on each material.  
 
 ![](https://i.gyazo.com/cb0b21d67eeedaa7d1f3c12bfd275cda.png)
 
