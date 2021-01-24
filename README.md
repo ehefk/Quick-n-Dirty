@@ -2,7 +2,7 @@
 
 ## Why? Because having lots of meshes is far more of a resource hog than just a bunch of materials.  These shaders are highly optimized and you'll save everyone some frames.
 
-### (Keep in mind, this shader package gets frequent updates, so the way this works may end up changing in the near future, but the capability will almost certainly remain.)
+### (Keep in mind, this shader package gets frequent updates, so the way this works may end up changing in the near future, but the capability will almost certainly remain, and I'll try to keep this page up-to-date.  It will probably get shorter and easier)
 
 **The version used here is 7.0.81 with unity 2018 (for VRChat).**
 
