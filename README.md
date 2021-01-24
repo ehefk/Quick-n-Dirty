@@ -22,7 +22,11 @@ Reminder before you start, make sure the rendering preset is on "Cutout" or this
 
 The way this works is each "Dissolve Alpha" slider goes from -1 to 1.
 
+![](https://i.gyazo.com/6498d77420409f161efb0c72309af212.png)
+
 Depending on what the initial "Dissolve Alpha" value is for that material, you can have a variety of outfit combinations on your mesh.
+
+![](https://i.gyazo.com/4d7d10df91c98ce34c91f124ce15bb90.png)
 
 Keep in mind, the magic doesn't happen until you "Lock in the shader" at the very top, so you can't really test any animations until after you mark each material's slider to animate, (so you might want to just start with 1 or 2 materials to make sure you're doing it right).
 
