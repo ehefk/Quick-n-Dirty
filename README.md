@@ -47,9 +47,9 @@ Locked the tank top, it now appears:
 ![](https://i.gyazo.com/a80556c0ec791ad08d56fbde3fc45eb1.png)
 
 Also note that if a material's dissolve starts at 0, then sliding into negative territory has no effect.  
--- The negative values are for when a material's initial dissolve value is positive.
+-- The negative values are for when a material's initial "dissolve alpha" is positive.
 
-In my example here, I have a top and bottom that I want to dissolve and undissolve together so I set their dissolve alpha to 0 and 1, respectively.
+In my example here, I have a top and bottom that I want to dissolve and undissolve together so I set their initial "dissolve alpha" to 0 and 1, respectively.
 
 The other default dissolve setting you'll want to configure is the "Dissolved Color," which must be set to Alpha = 0 using the color picker if you want it to be fully transparent but can be whatever you want.
 
