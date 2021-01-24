@@ -1,4 +1,4 @@
-### Quick and dirty guide to one of the latest additions to Poiyomi's Pro shader.
+# Quick and dirty guide to Poiyomi Pro Dissolve Anim Sliders
 
 ## Keep in mind, this shader package changes frequently, so the way this works may end up changing in the near future, but the capability will almost certainly remain.
 
@@ -16,10 +16,14 @@ Reminder before you start, make sure the rendering preset is on "Cutout" or this
 
 ![](https://i.gyazo.com/3b5a0d184febec873db8573fecfa4400.png)
 
-The way this works is each "Dissolve Alpha" slider goes from -1 to -1.
+The way this works is each "Dissolve Alpha" slider goes from -1 to 1.
+
 Depending on what the initial "Dissolve Alpha" value is for that material, you can have a variety of outfit combinations on your mesh.
 
 Keep in mind, the magic doesn't happen until you "Lock in the shader" at the very top, so you can't really test any animations until after you mark each material's slider to animate, (so you might want to just start with 1 or 2 materials to make sure you're doing it right).
+
+*LOCK IN TO SEE ANIMATIONS
+![](https://i.gyazo.com/803772d58bb46aea049784d3ee14816d.png)
 
 Here's what I mean.
 All 4 materials unlocked, but with the clock on the sliders nothing happens on the animation clip:
@@ -49,7 +53,7 @@ Next, you'll want animate these properties like you normally would.
 
 Set the Dissolve Alphas between -1 and 1 in your keyframes and you're good to go!
 
-Protip: if you happen to be new to animating in unity, like I was when starting this you'll find out you can't copy/paste the properties into a new animation clip, but you can duplicate each clip, * then drag them * onto your test avatar in the scene.
+Protip: if you happen to be new to animating in unity, like I was when starting this you'll find out you can't copy/paste the properties into a new animation clip, but you can duplicate each clip, **then drag them** onto your test avatar in the scene.
 
 When you're adding the Dissolve Alpha Properties you'll notice that some say "ANIMATED" - don't touch those, they're used by the compiled shader during optimization.
 
