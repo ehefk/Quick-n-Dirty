@@ -1,6 +1,6 @@
 # Quick and dirty guide to Poiyomi Pro Dissolve Anim Sliders
 
-## Why? Because having lots of meshes is far more of a resource intensive than just a bunch of materials.  These shaders are highly optimized and you'll save everyone some frames.
+## Why? Because having lots of meshes is far more of a resource hog than just a bunch of materials.  These shaders are highly optimized and you'll save everyone some frames.
 
 ### (Keep in mind, this shader package gets frequent updates, so the way this works may end up changing in the near future, but the capability will almost certainly remain.)
 
