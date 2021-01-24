@@ -28,7 +28,7 @@ Depending on what the initial "Dissolve Alpha" value is for that material, you c
 
 ![](https://i.gyazo.com/4d7d10df91c98ce34c91f124ce15bb90.png)
 
-Keep in mind, the magic doesn't happen until you "Lock in the shader" at the very top, and **you can't test any animations until after you mark each material's slider to animate,** (so you might want to just start with 2 or 3 materials to make sure you're doing it right).
+Keep in mind, the magic doesn't happen until you "Lock in the shader" at the very top, and **you can't test any animations until after you mark each material's slider to animate,** (so you might want to start with only 2 or 3 materials to make sure you're doing it right).
 
 *LOCK IN TO SEE ANIMATIONS*
 ![](https://i.gyazo.com/02c3fa20ef4ce344f06327f2f7a0ad15.png)
