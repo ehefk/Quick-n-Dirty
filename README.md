@@ -2,13 +2,15 @@
 
 ## Keep in mind, this shader package changes frequently, so the way this works may end up changing in the near future, but the capability will almost certainly remain.
 
-The version used here is 7.0.81 with unity 2018 (for VRChat).
+**The version used here is 7.0.81 with unity 2018 (for VRChat).**
 
 ![](https://i.gyazo.com/f4469f6db357a694b64f0655c584ceca.png)
 
 ## TLDR:  
 
 ### Shaders effect the entire mesh, but the "clock" icon in the shader UI acts as a mask for animating individual materials.
+
+---
 
 In the demonstration, we're using 4 materials that make up this avatar's outfit but you can use all 10 sliders.
 
@@ -26,7 +28,7 @@ Keep in mind, the magic doesn't happen until you "Lock in the shader" at the ver
 ![](https://i.gyazo.com/803772d58bb46aea049784d3ee14816d.png)
 
 Here's what I mean.
-All 4 materials unlocked, but with the clock on the sliders nothing happens on the animation clip:
+All 4 materials unlocked, *even with the clock on the sliders nothing happens on the animation clip:
 
 ![](https://i.gyazo.com/25e4ac4355aab021781da3f1459caf45.png)
 
