@@ -69,6 +69,4 @@ Don't forget to right-click the desired slider for each material to use.  You sh
 
 ![](https://i.gyazo.com/cb0b21d67eeedaa7d1f3c12bfd275cda.png)
 
-If you're new to poiyomi Pro, please note that you absolutely have to use the "Lock-in optimized shader" for the animations to work properly in game, NOT TO MENTION, locking in builds a highly optimized shader for each material, which benefits everyone who sees it.
-
 That's it!  You can experiment with this in all kinds of ways, such as dissolving between colors or hiding accessories.
